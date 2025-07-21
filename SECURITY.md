@@ -4,9 +4,7 @@
 
 The table below shows which versions are being supported with security updates.
 
-|  Version  | Supported          |
-| --------- | ------------------ |
-| --------- | ------------------ |
+# No versions are currently being supported.
 
 ## Reporting a Vulnerability
 
