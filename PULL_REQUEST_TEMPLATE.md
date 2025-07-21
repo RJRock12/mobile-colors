@@ -1,3 +1,1 @@
-- A reference to a related issue in your repository.
-- A description of the changes proposed in the pull request.
-- @mentions of the person or team responsible for reviewing proposed changes.
+# Pull requests will not be considered for this repository given the nature of the project.
