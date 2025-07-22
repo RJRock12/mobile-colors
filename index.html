@@ -8,7 +8,7 @@
     html, body {
       height: 100%;
       margin: 0;
-      padding-bottom: 100px;
+      padding: 0;
       overscroll-behavior-y: contain;
       background: #f2f2f7;
       font-family: -apple-system, sans-serif;
@@ -160,7 +160,7 @@
   
   <div id="loupeControlsContainer">
     <button id="loupeControlsToggle" aria-pressed="true">Hide Loupe Controls</button>
-    <!--<button id="scrollToggle" aria-pressed="false">Disable Scrolling</button>-->
+    <button id="scrollToggle" aria-pressed="false">Disable Scrolling</button>
     <div id="loupeControls" aria-hidden="false" role="region" aria-label="Loupe Controls">
       <button data-dir="up" aria-label="Move loupe up">↑</button>
       <button data-dir="down" aria-label="Move loupe down">↓</button>
@@ -173,8 +173,8 @@
 
   <canvas id="imageCanvas"></canvas>
   <canvas id="loupe"></canvas>
-  
-    <script>
+
+  <script>
     const picker = document.getElementById('colorPicker');
     const hexDisplay = document.getElementById('hexValue');
     const nameDisplay = document.getElementById('colorName');
